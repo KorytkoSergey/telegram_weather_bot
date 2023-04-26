@@ -2,7 +2,7 @@ import requests
 
 from neAPI import API_KEY_FROM_BOT, API_KEY_FROM_WEATHER
 import telebot
-
+#comment for test
 key_for_bot = API_KEY_FROM_BOT
 key_for_weather = API_KEY_FROM_WEATHER
 bot = telebot.TeleBot(key_for_bot)
