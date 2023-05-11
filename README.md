@@ -12,13 +12,13 @@
 
 <h2>Установка и запуск</h2> 
 
-Для работы с ботом нужно установить интерпретатор Python, IDE, клонировать репозиторий и установить зависимости. 
-Установить интерпретатор: https://www.python.org/downloads/
-Выбрать IDE: https://habr.com/ru/companies/skillfactory/articles/521838/
-Адрес репозитория: https://github.com/KorytkoSergey/telegram_weather_bot
-Создать виртуальное окружение в командной строке. Для это перейдите в дерикторию проекта при помощи строки и введите: <code>python -m venv <название окружения></code>
-Затем активируем <code>source myenv/bin/activate</code>
-Установить зависимости <code>pip install -r requirements.txt</code> и доустанавливаем <code>pip install requests</code> при необходимости
+<p>Для работы с ботом нужно установить интерпретатор Python, IDE, клонировать репозиторий и установить зависимости.</p> 
+<p>Установить интерпретатор: https://www.python.org/downloads/</p>
+<p>Выбрать IDE: https://habr.com/ru/companies/skillfactory/articles/521838/</p>
+<p>Адрес репозитория: https://github.com/KorytkoSergey/telegram_weather_bot</p>
+<p>Создать виртуальное окружение в командной строке. Для это перейдите в дерикторию проекта при помощи строки и введите: <code>python -m venv <название окружения></code></p>
+<p>Затем активируем <code>source myenv/bin/activate</code></p>
+<p>Установить зависимости <code>pip install -r requirements.txt</code> и доустанавливаем <code>pip install requests</code> при необходимости</p>
 
 В директории проекта создаем файл .env, внего вносим токены:
 * токен для погоды мы берем с https://openweathermap.org/api
